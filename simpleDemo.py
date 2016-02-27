@@ -4,6 +4,9 @@ s = 'https://docs.google.com/forms/d/14SKwIY6w_8CiQ8bnqKSkWP9bLdUw-9Iojd33EH4uqG
 
 def ping():
 	getSite = urllib.urlopen(s)
-	
-for x in range(0, 100):
-	ping()
+
+def loop(N):
+	for x in range(0, N)
+		ping()
+
+ping(100)
