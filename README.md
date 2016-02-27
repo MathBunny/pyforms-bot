@@ -16,7 +16,7 @@
 4. You can identify the number that appears under entry.x by inspecting element in the target form
 5. Replace the text within the `TEXTONE` and `TEXTTWO` with your desired text, set this to the s variable
 6. Call the appropriate methods, and you are done!
-⋅⋅* Note: You can use the `viewForm` to see the behavior of the form without submitting!
+  * Note: You can use the `viewForm` to see the behavior of the form without submitting!
 
 ##Simple Demo:
 ```python
