@@ -11,9 +11,7 @@
 1. Get the pre-filled URL from Google Forms (_Resources_, then _Get pre-filled URL_)
 2. Change `viewform` to `formResponse` in the URL
 3. You should now change the URL, which should appear like this:
-
-> https://docs.google.com/forms/d/14SKwIY6w_8CiQ8bnqKSkWP9bLdUw-9Iojd33EH4uqGQ/formResponse?entry.1919438111=TEXTONE&entry.1717334207=TEXTTWO
-
+..* > https://docs.google.com/forms/d/14SKwIY6w_8CiQ8bnqKSkWP9bLdUw-9Iojd33EH4uqGQ/formResponse?entry.1919438111=TEXTONE&entry.1717334207=TEXTTWO
 4. You can identify the number that appears under entry.x by inspecting element in the target form
 5. Replace the text within the TEXTONE and TEXTTWO with your desired text, set this to the s variable
 6. Call the appropriate methods, and you are done!
