@@ -1,12 +1,13 @@
 import urllib
-
-s = 'https://docs.google.com/forms/d/14SKwIY6w_8CiQ8bnqKSkWP9bLdUw-9Iojd33EH4uqGQ/formResponse?entry.1919438111=Hello&entry.1717334207=Hi'
+#https://docs.google.com/forms/d/1lgpSjcJAZGbxu5OiWXJbqFp8DYoKd1sFMZGrbtSySoY/viewform
+#https://docs.google.com/forms/d/1ApwQXMpswgsnt5In4Ttt5W1w1iX0Ku7W3yGMa0FMfB8/viewform
+s = 'https://docs.google.com/forms/d/1ApwQXMpswgsnt5In4Ttt5W1w1iX0Ku7W3yGMa0FMfB8/formResponse?entry.1919438111=Hello&entry.1717334207=Hi'
 
 def ping():
 	getSite = urllib.urlopen(s)
 
 def loop(N):
-	for x in range(0, N)
+	for x in range(0, N):
 		ping()
 
-ping(100)
+loop(100)

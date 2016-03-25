@@ -18,12 +18,15 @@ def quick(N):
 		print x
 
 
-
+#https://docs.google.com/forms/d/1lgpSjcJAZGbxu5OiWXJbqFp8DYoKd1sFMZGrbtSySoY/formResponse?entry.1025952146=MrsGugoiu&entry.677539646=Hello
 for x in range (0, 10000):
 	random = randint(0,1000000)
 	cmd = 'formResponse?entry.1025952146=MrsGugoiu&entry.677539646='
 	cmd = cmd + str(random)
-	ping ('https://docs.google.com/forms/d/1lgpSjcJAZGbxu5OiWXJbqFp8DYoKd1sFMZGrbtSySoY/)' + cmd)
+	#s = 'https://docs.google.com/forms/d/1lgpSjcJAZGbxu5OiWXJbqFp8DYoKd1sFMZGrbtSySoY/)' + cmd
+	#print s
+	s = 'https://docs.google.com/forms/d/1lgpSjcJAZGbxu5OiWXJbqFp8DYoKd1sFMZGrbtSySoY/formResponse?entry.1025952146=MrsGugoiu&entry.677539646=Mathemagics'
+	ping ()
 	print "Done: ",
 	print x
 
